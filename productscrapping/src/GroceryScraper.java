@@ -22,7 +22,7 @@ public class GroceryScraper {
         // Navigate to the BigBasket homepage
         driver.get("https://www.bigbasket.com/");
 
-        // Create an Excel workbook and worksheet
+        // Create an Excel workbook and worksheetw
         Workbook workbook = new XSSFWorkbook();
         Sheet sheet = workbook.createSheet("Products");
 
